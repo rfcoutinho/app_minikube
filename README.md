@@ -32,3 +32,10 @@ service/app created
 Exposing service...
 http://192.168.49.2:32439
 ```
+
+## App yaml
+
+The `app.yaml` file contains all the required information and parameters to deploy the app into a local minikube setup
+
+### sed setup
+The `deployed_at` info is generated exactly after the `deploy.sh`script is started and the `app.yaml` is uptaded with the epoch of it

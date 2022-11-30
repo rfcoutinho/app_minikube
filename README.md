@@ -16,7 +16,7 @@ This repo contains the required resources to deploy an app into a minicluster
                        
                        
 A new build just started... Stay tuned!
-EPOCH:1669848172
+EPOCH:1669849142
 Getting docker env...
 export DOCKER_TLS_VERIFY="1"
 export DOCKER_HOST="tcp://192.168.49.2:2376"
@@ -27,8 +27,8 @@ export MINIKUBE_ACTIVE_DOCKERD="minikube"
 # eval $(minikube -p minikube docker-env)
 Loading image...
 Applying yaml...
-deployment.apps/app configured
-service/app unchanged
+deployment.apps/app created
+service/app created
 Exposing service...
-http://192.168.49.2:31124
+http://192.168.49.2:32439
 ```
